@@ -10,7 +10,7 @@ Otto product classification (https://www.kaggle.com/c/otto-group-product-classif
 * Almost 62,000 products.
 
 #### Approach
-To see how well a pretty standard network performs with this dataset, using `relu` and `softmax` activations, compiled with `rmsprop` optimisaiton. The nodes will gradually decrease in number over 8 hidden layers.
+To see how well a pretty standard network performs with this dataset, using `relu` and `softmax` activations, compiled with `rmsprop` optimisation. The nodes will gradually decrease in number over 8 hidden layers.
 
 1. Preprocess with `pandas`, `numpy`, `sklearn`.
 2. Build and fit model using `Keras`.
